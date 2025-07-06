@@ -1,1 +1,9 @@
-// next.config.js placeholder content
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: [],
+  },
+};
+
+module.exports = nextConfig;
